@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /rooms
+Allow: /booking
+Allow: /contact
+Disallow: /admin
+
+Sitemap: https://saltandstone.lk/sitemap.xml

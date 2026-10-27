@@ -1,0 +1,6 @@
+{
+  "name": "Salt & Stone — Coastal House",
+  "description": "A concept boutique coastal stay and reservation platform in Ahangama, Sri Lanka. Explore rooms, check real-time availability, and book your stay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
