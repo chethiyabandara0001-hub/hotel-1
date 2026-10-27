@@ -499,7 +499,6 @@ export default function App() {
           aria-label="Salt and Stone, home"
         >
           salt <i>&amp;</i> stone
-          <small>coastal house</small>
         </a>
 
         <div className="header-right">
@@ -713,7 +712,8 @@ export default function App() {
                     <img
                       src={roomType.featuredImage}
                       alt={roomType.name}
-                      loading="lazy"
+                      loading="eager"
+                      decoding="async"
                     />
                     {roomType.badge && <span className="room-badge">{roomType.badge}</span>}
                     <span
@@ -803,6 +803,7 @@ export default function App() {
             <img
               src={content.statement.image}
               loading="lazy"
+              decoding="async"
               alt="Serene tropical pool surrounded by palm trees and natural materials"
             />
             <span className="image-caption">{content.statement.imageCaption}</span>
@@ -853,7 +854,7 @@ export default function App() {
                 onClick={() => setInspectingExperience(exp)}
               >
                 <div className="experience-photo">
-                  <img src={exp.image} alt={exp.alt} loading="lazy" />
+                  <img src={exp.image} alt={exp.alt} loading="lazy" decoding="async" />
                 </div>
                 <span className="experience-number">{exp.numberLabel}</span>
                 <h3>{exp.title}</h3>
@@ -891,6 +892,7 @@ export default function App() {
             <img
               src={content.dining.image}
               loading="lazy"
+              decoding="async"
               alt="Inviting restaurant table set for a warm evening meal"
             />
           </div>
@@ -913,7 +915,7 @@ export default function App() {
                 onClick={() => setLightboxIdx(idx)}
                 title="Click to view full-screen photograph"
               >
-                <img src={item.url} loading="lazy" alt={item.alt} />
+                <img src={item.url} loading="lazy" decoding="async" alt={item.alt} />
               </figure>
             ))}
           </div>
@@ -978,6 +980,7 @@ export default function App() {
             <img
               src={content.location.image}
               loading="lazy"
+              decoding="async"
               alt="Sun-drenched tropical Sri Lankan coastline"
             />
             <div className="location-bubble">

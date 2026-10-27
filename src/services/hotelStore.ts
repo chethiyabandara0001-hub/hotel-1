@@ -20,7 +20,7 @@ import {
   WebsiteContent,
 } from '../types/hotel';
 
-const STORAGE_KEY = 'salt_and_stone_hotel_db_v1';
+const STORAGE_KEY = 'salt_and_stone_hotel_db_v2';
 const CHANNEL_NAME = 'salt_and_stone_sync_channel';
 
 // Hotel local date helper (Asia/Colombo timezone)
@@ -121,11 +121,11 @@ function buildInitialSeedState(): HotelDatabaseState {
       description:
         'Surrounded by wild heliconia, frangipani, and dappled palm shade, The Garden Room opens onto a private terracotta veranda. Hand-troweled lime walls, custom Sri Lankan teak joinery, and an open-sky courtyard rain shower invite unhurried mornings.',
       featuredImage:
-        'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1050&q=82',
+        'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=760&q=75',
       gallery: [
-        'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=85',
-        'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=85',
-        'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1200&q=85',
+        'https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=960&q=75',
+        'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=960&q=75',
+        'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=960&q=75',
       ],
       pricePerNightCents: 18500,
       maxGuests: 2,
@@ -161,11 +161,11 @@ function buildInitialSeedState(): HotelDatabaseState {
       description:
         'Elevated on the upper coastal ridge with uninterrupted sightlines across the Indian Ocean reef break. Louvered timber shutters fold back completely so you can wake to the rhythm of the tide and watch dusk settle over the water from your private stone soaking tub.',
       featuredImage:
-        'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1050&q=82',
+        'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=760&q=75',
       gallery: [
-        'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85',
-        'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=85',
-        'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1200&q=85',
+        'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=960&q=75',
+        'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=960&q=75',
+        'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=960&q=75',
       ],
       pricePerNightCents: 24500,
       maxGuests: 2,
@@ -200,11 +200,11 @@ function buildInitialSeedState(): HotelDatabaseState {
       description:
         'Our most expansive sanctuary for families, friends, or longer coastal stays. Featuring two independent en-suite king bedrooms connected by a breezy indoor-outdoor living pavilion, private dining loggia, and direct path through the coconut grove to the ocean.',
       featuredImage:
-        'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1050&q=82',
+        'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=760&q=75',
       gallery: [
-        'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=85',
-        'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=85',
-        'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=85',
+        'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=960&q=75',
+        'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=960&q=75',
+        'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=960&q=75',
       ],
       pricePerNightCents: 34500,
       maxGuests: 4,
@@ -510,7 +510,7 @@ function buildInitialSeedState(): HotelDatabaseState {
       bottomMotto: 'Come as you are. Stay as you feel.',
       sideCoordinates: '05° 58′ N   /   THE SOUTH COAST',
       backgroundImage:
-        'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=2400&q=88',
+        'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1400&q=75',
     },
     bookingBarCaption: 'A small place. An unhurried experience.   —   Direct Coastal House Reservations',
     intro: {
@@ -536,7 +536,7 @@ function buildInitialSeedState(): HotelDatabaseState {
       body: 'Wake with the light. Take another swim. Read one more chapter. Every corner of the house is made for the beautiful art of doing very little.',
       ctaText: 'Find your pace',
       image:
-        'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1350&q=85',
+        'https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=960&q=75',
       imageCaption: 'HERE, THERE IS NO NEED TO RUSH.',
     },
     experiencesHeading: {
@@ -556,7 +556,7 @@ function buildInitialSeedState(): HotelDatabaseState {
         duration: 'Served daily · 07:30 until noon',
         includedText: 'Complimentary for all house guests',
         image:
-          'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85',
+          'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=680&q=75',
         alt: 'Soft sunrise over a peaceful natural landscape',
       },
       {
@@ -569,7 +569,7 @@ function buildInitialSeedState(): HotelDatabaseState {
         duration: 'Dawn & dusk coastal sessions',
         includedText: 'Hand-shaped longboards & reef snorkels available in the board room',
         image:
-          'https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=900&q=85',
+          'https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=680&q=75',
         alt: 'Coastline and Indian Ocean waters',
       },
       {
@@ -582,7 +582,7 @@ function buildInitialSeedState(): HotelDatabaseState {
         duration: 'Evening table · From 18:30',
         includedText: 'Daily changing coastal harvest menu & natural wine cellar',
         image:
-          'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85',
+          'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=680&q=75',
         alt: 'Fresh seasonal meal prepared with vibrant ingredients',
       },
     ],
@@ -593,7 +593,7 @@ function buildInitialSeedState(): HotelDatabaseState {
       body: "From just-picked tropical fruit in the morning to the day's catch as the sky turns golden, every meal celebrates what this coast has to offer.",
       ctaText: 'Ask about dining',
       image:
-        'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85',
+        'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=75',
       sampleMenu: [
         {
           course: 'Morning Table',
@@ -619,17 +619,17 @@ function buildInitialSeedState(): HotelDatabaseState {
       note: 'A collection of what it feels like to be here.',
       gallery: [
         {
-          url: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1050&q=82',
+          url: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=780&q=75',
           alt: 'Lush tropical resort and refreshing blue pool',
           caption: 'Midday stillness by the courtyard saltwater pool.',
         },
         {
-          url: 'https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=600&q=82',
+          url: 'https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=520&q=75',
           alt: 'Palm-lined tropical coast',
           caption: 'Morning trade winds along Kabaragala Point.',
         },
         {
-          url: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=900&q=82',
+          url: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=720&q=75',
           alt: 'Relaxed, warmly lit hotel interior',
           caption: 'Hand-finished lime plaster, local teak, and late afternoon light.',
         },
@@ -656,7 +656,7 @@ function buildInitialSeedState(): HotelDatabaseState {
       body: "Down on Sri Lanka's southern coast, Ahangama moves to a gentler rhythm. It's the kind of place you arrive at once, and keep returning to in your mind.",
       ctaText: 'Explore Ahangama',
       image:
-        'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1300&q=82',
+        'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=960&q=75',
       bubbleTitle: 'Somewhere in the south',
       bubbleLine1: 'Ahangama, Sri Lanka',
       bubbleLine2: 'Kabaragala Point · South Coast',
